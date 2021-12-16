@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <main>
+        <form method="POST" action="./action/teste.php">
+        <!-- action: informar o endereço da web em que o formulário será processado -->
+            <header>
+                <h1>Formulário</h1>
+            </header>
+
+            <label id="nome" class="class-nome">
+                Nome:
+                <input type="text" name="nome" class="input-box-nome">
+            </label>
+
+            <label id="sobrenome" class="class-sobrenome">
+                Sobrenome:
+                <input type="text" name="sobrenome" class="input-box-sobrenome">
+            </label>
+
+            <label id="idade" class="class-idade">
+                Idade:
+                <input type="text" name="idade" class="input-box-idade">
+            </label>
+
+            <label id="linguagem" class="class-linguagem">
+                Linguagem preferida:
+                <select name="linguagem" class="input-box-linguagem">
+                    <option>C#</option>
+                    <option>PHP</option>
+                    <option>Ruby</option>
+                    <option>Java</option>
+                    <option>NodeJS</option>
+                </select>
+            </label>
+
+            <div id="acao">
+                <button type="submit" class="button salvar">Salvar</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>

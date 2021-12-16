@@ -1,0 +1,46 @@
+cidade de origem:
+________________
+
+cidade de destino:
+________________
+
+distância entre elas:
+________________
+
+quantidade de pedágios:
+________________
+
+
+pedagio = 9,40
+valorPorKm = 6,00
+
+$cidadeOrigem
+$cidadeDestino
+$distancia
+$quantidadePedagios
+
+
+
+$valorAPagar = ($distancia * 6) + ($quantidadePedagios * 9.40)
+
+
+60 + 28,2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

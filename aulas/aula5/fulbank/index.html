@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calcular.php">
+    <title>Conta de Luz</title>
+</head>
+<body>
+    <form method="POST" action="./calcular.php">
+        <h1>Aumento de Funcionários</h1>
+        <label for="nome-funcionario">Nome:</label>
+        <input id="nome-funcionario" name="nome-funcionario" required="true"/>
+
+        <label for="salario-atual">Salário atual (R$):</label>
+        <input id="salario-atual" name="salario-atual" required="true"/>
+
+
+        <div class="radio">
+            <input type="radio" name="opcoes-radio" value="masculino"/>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="opcoes-radio" value="feminino"/> Feminino<br />
+            <input type="radio" name="opcoes-radio" value="outro"/> Outro<br />
+        </div>
+
+
+        <label for="cargo">Cargo:</label>
+        <select name="cargos">
+            <option value="selecione">Selecione...</option>
+            <option value="gerente">Gerente de TI</option>
+            <option value="analista">Analista de TI</option>
+            <option value="diretor">Diretor de TI</option>
+            <option value="assistente">Assistente de TI</option>
+        </select>
+
+        <button name="acao">Calcular</button>
+
+    </form>
+</body>
+</html>

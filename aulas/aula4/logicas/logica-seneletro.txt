@@ -1,0 +1,39 @@
+
+Consumo de Quilowatts por hora:
+_____________
+
+Nome completo do cliente:
+_____________
+
+Endereço (rua e número):
+_____________
+
+
+
+if ($consumoHora > 120) {
+
+	$valorAPagar = ($consumoHora * 0.42);
+	echo ...;
+} else {
+	
+	$valorAPagar = ($consumoHora * 0.32);
+	echo ...;
+	echo "Obrigado por economizar!";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

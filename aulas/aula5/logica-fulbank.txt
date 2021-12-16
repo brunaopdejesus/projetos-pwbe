@@ -1,0 +1,9 @@
+nome do funcionario
+salario atual
+genero (feminino, masculino ou outros)
+cargo (comboBox)
+
+if salario > 5000 + 10%
+else + 20%
+
+o $nome passará a receber R$ $valor no cargo de $cargo
